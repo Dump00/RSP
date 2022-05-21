@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'rsp';
+
+  activeFeature = 'recipe'
+
+  setNavigate(feature: string){
+    this.activeFeature = feature
+    
+  }
 }
