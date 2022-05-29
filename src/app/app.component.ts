@@ -12,6 +12,5 @@ export class AppComponent {
 
   setNavigate(feature: string){
     this.activeFeature = feature
-    
   }
 }
